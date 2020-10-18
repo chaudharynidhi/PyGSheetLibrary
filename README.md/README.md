@@ -65,9 +65,10 @@ This library helps in taking the google sheets and can even convert the sheets i
     df = sd.createDF(d)
     
     #to plot various graphs like bar plot, line plot, scatter plot
-    sd.pltbar(df) #for bar plot
-    sd.plotline(df) #for line plot
-    sd.plotscatter(df) #for scatter plot
+    sd.pltbar(df, 'city', 'state') #for bar plot
+    sd.plotline(df,'city', 'state') #for line plot
+    colors = [4,5,1,2,3,4] #according to the size of y axis allot the number according to you choice as this will be used as a reference in creating the colorbar.
+    sd.plotscatter(df,'city', 'state', colors) #for scatter plot
     ```
  
  I have used this library to print the scatter plot for the dataset: Greendeck SE Assignment Task 2
