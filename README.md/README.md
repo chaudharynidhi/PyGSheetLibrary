@@ -73,6 +73,6 @@ This library helps in taking the google sheets and can even convert the sheets i
  
  I have used this library to print the scatter plot for the dataset: Greendeck SE Assignment Task 2
  ![alt_text](https://github.com/chaudharynidhi/PyGSheetLibrary/blob/main/scatter_plot1.png?raw=true)    
-The graph shows the average_sales for 2 days for almost every minute. I have plotted the mean line which is depicted with the red line. Also the graph has a legend attached with it and a color bar too to describe the changes of color with every change in values.
+The graph shows the average_sales for 2 days for almost every minute. I have plotted the mean line which is depicted with the red line. Also the graph has a legend attached with it and a color bar too to describe the changes of color with every change in values. The x axis represents the timestamp which is converted to the date and time and ticks are marked for every 3 hours and y axis represents the average_sales in 10^6 range.
 
 This is my first attempt in creating any library, I have worked for long hours in learning and implemeting this library. I know this may not sound that hard to make,but learning was great. Thank You for believing in me to work on this assignment.
